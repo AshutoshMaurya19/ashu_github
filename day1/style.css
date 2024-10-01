@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+}
+#heading
+{
+    background-color: rgb(226, 153, 43);
+    font-size: 50%;
+    border-color: aquamarine;
+    text-align: center;
+}
+table {
+    width: 50px;
+    front-size: 2px;
+    color: bisque;
+    font-weight: 50px;
+}
+#container {
+    display: flex;
+    justify-content: center;
+
+}
