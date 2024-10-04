@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Finishes</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d1d1d;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.nav {
+    background-color: black;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.product {
+    background-color: #282828;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.product-image img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #ff4d4d;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.explore {
+    color: #00bfff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.explore:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+    
+.product-image div {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    
+}
+
+.product-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    </style>
+
+</head>
+<body>
+    
+    <div class="nav">
+        <a href="#">Products</a>
+        <a href="#">Discounts</a>
+        <a href="#">Our Partners</a>
+        <a href="#">About Us</a>
+    </div>
+
+    <div class="product-grid">
+        <div class="product">
+            <div class="product-image">
+                <div></div>
+            </div>
+            <h3>MATTE</h3>
+            <p>a subtle but elegant finish for low-touch and delicate surfaces</p>
+            <a href="#" class="explore">Explore</a>
+        </div>
+
+        <div class="product">
+            <div class="product-image">
+                <div></div>
+            </div>
+            <h3>SEMI-GLOSS</h3>
+            <p>our signature finish for high-wear parts, details, and surfaces</p>
+            <a href="#" class="explore">Explore</a>
+        </div>
+
+        <div class="product">
+            <div class="product-image">
+                <div></div>
+            </div>
+            <h3>HIGH-GLOSS</h3>
+            <p>an eye-stopping shine best for metal and other smooth surfaces</p>
+            <a href="#" class="explore">Explore</a>
+        </div>
+    </div>
+</body>
+</html>
